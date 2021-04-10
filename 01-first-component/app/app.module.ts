@@ -5,6 +5,9 @@ import { CommonModule } from '@angular/common';
 import { AppComponent } from './app.component';
 
 @NgModule({
+  declarations: [
+    AppComponent
+  ],
   imports: [
     BrowserModule,
     CommonModule
@@ -12,8 +15,5 @@ import { AppComponent } from './app.component';
   bootstrap: [
     AppComponent
   ],
-  declarations: [
-    AppComponent
-  ]
 })
 export class AppModule {}
